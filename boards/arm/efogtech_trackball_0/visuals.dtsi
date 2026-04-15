@@ -31,7 +31,7 @@
 		layer_default {
 			event-type = "layer";
 			layer-index = <LAYER_DEFAULT>;
-			colors = [00 00 00];
+			colors = [ff 00 00];
 			persistent;
 		};
 
@@ -77,7 +77,7 @@
 		idle {
 			label = "Idle";
 			event-type = "idle";
-			colors = [00 00 00];
+			colors = [ff 00 00];
 			animation = "flash";
 			headless;
 		};
