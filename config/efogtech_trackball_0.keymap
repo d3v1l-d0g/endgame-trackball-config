@@ -41,8 +41,8 @@
  */
 
 /* Twist-to-scroll speed used during normal pointer mode. */
-#define TWIST_MULTIPLIER   3
-#define TWIST_DIVISOR      5
+#define TWIST_MULTIPLIER   1
+#define TWIST_DIVISOR      3
 
 /* Ball-to-scroll speed used while holding the Scroll layer. */
 #define SCROLL_MULTIPLIER  1
