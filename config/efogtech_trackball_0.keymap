@@ -211,6 +211,17 @@
 		};
 	};
 
+	combos {
+		compatible = "zmk,combos";
+
+		combo_rofi {
+			timeout-ms = <75>;
+			key-positions = <6 7>;
+			layers = <0>;
+			bindings = <&kp LG(SPACE)>;
+		};
+	};
+
 	behaviors {
 		cdch: click-double-click-hold {
 			compatible = "zmk,behavior-hold-tap";
