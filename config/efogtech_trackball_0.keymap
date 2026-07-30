@@ -243,14 +243,11 @@
 
 	trackball {
 		/*
-		 * Normal pointer mode
-		 *
-		 * Twist-to-scroll is scaled first, then pointer/scroll acceleration
-		 * and rotation processors are applied.
+		 * Normal pointer mode using the current upstream processor chain.
 		 */
-		input-processors = <&zip_scroll_scaler TWIST_MULTIPLIER TWIST_DIVISOR>,
+		input-processors = <&zip_bistable_twist_scaler>,
 						   <&zip_pointer_accel>, <&zip_scroll_accel>,
-						   <&zip_rotate_pointer>, <&zip_rotate_scroll>,
+						   <&zip_rotate_pointer>,
 						   <&esb_ip>, <&zip_ble_report_rate_limit>;
 
 		scroll {
