@@ -229,10 +229,10 @@
 			#binding-cells = <2>;
 			flavor = "tap-preferred";
 			tapping-term-ms = <325>;
-			bindings = <&mo>, <&cdc>;
+		  bindings = <&mo>, <&ap_cdc>;
 		};
 
-		cdc: click-double-click {
+		ap_cdc: click-double-click {
 			compatible = "zmk,behavior-tap-dance";
 			display-name = "Super+C / Super+V (click/double-click)";
 			#binding-cells = <0>;
