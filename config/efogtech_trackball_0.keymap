@@ -275,8 +275,7 @@
 			 * movement but is scaled by SNIPE_MULTIPLIER / SNIPE_DIVISOR.
 			 */
 			layers = <LAYER_SNIPE>;
-			input-processors = <&zip_bistable_snipe_scaler>,
-							   <&zip_rotate_pointer>, <&zip_rotate_scroll>,
+			input-processors = <&zip_bistable_snipe_scaler>, <&zip_rotate_pointer>,
 							   <&esb_ip>, <&zip_ble_report_rate_limit>;
 		};
 	};
